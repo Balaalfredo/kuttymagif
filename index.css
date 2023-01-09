@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Rye&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-image: url("./src/wallpaperflare.com_wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body .border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  border: 2px solid white;
+  font-size: 16px;
+}
+body .border .box {
+  font-family: "Rye", cursive;
+  font-size: 5em;
+  text-align: center;
+  text-shadow: 2px 2px 1px black, 4px 2px 1px black, 6px 2px 1px black;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 85%;
+  height: 90%;
+  color: rgb(29, 67, 235);
+  border: 3px solid black;
+}
+body .border .box p {
+  padding: 15px;
+  margin: 15px;
+}
+@media (max-width: 1050px) {
+  body .border {
+    font-size: 14px;
+  }
+  body .border .box {
+    width: 90%;
+  }
+}/*# sourceMappingURL=index.css.map */
